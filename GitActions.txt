@@ -1,0 +1,9 @@
+git add .
+git commit -m "définition du mouvement de toutes les pièces"
+git push
+
+git add .
+git commit -m "first commit"
+git push --set-upstream origin main
+
+git push --set-upstream origin branche_créée

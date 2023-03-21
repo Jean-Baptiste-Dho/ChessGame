@@ -132,44 +132,29 @@ require_once 'classes/Pawn.php';
             $bBishop1->canGo(-1, 1);
             //$bBishop1->canGo(-1, 5);
 
-
-
-            //$bBishop1->canGo(-1, 5);
-            $bKnight1->canGo(2, -1);
-            $bKnight1->canGo(2, 1);
-            $bKnight1->canGo(-2, 1);
-            $bKnight1->canGo(-2, 1);
-            $bKnight1->canGo(-2, -1);
-            //$bKnight1->canGo(-5, -5);
-
             $wRook1->canGo(0, 4);
             $wRook1->canGo(1, 0);
-            // $wRook1->canGo(-2, 2);
             $wRook1->canGo(-1, 0);
             $wRook1->canGo(3, 0);
+            // $wRook1->canGo(-2, 2);
 
-            //$wKing->setPosition(5, 1);
-            //$bQueen->setPosition(4, 5);
+            $wKnight1->canGo(1, 2);
+            $wKnight1->canGo(2, -1);
+            $wKnight1->canGo(2, 1);
+            $wKnight1->canGo(-1, 2);
+            //$wKnight1->canGo(-5, -5);
 
-            // $wKing->canGo(0, 1);
-            // $wKing->canGo(0, 1);
-            // $wKing->canGo(0, 1);
-            // $wKing->canGo(0, 1);
-            // $wKing->canGo(0, 1);
+            $wPawn8->canGo(0, 1);
+            $wPawn8->canGo(0, 1);
+            $wPawn8->canGo(0, 1);
+            // $wPawn8->canGo(0, -1);
+            // $wPawn8->canGo(1, 1);
 
-            // $wPawn4->setPosition(4, 6);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
+            $bPawn1->canGo(0, -1);
+            $bPawn1->canGo(0, -1);
+            // $bPawn1->canGo(0, 1);
+            // $bPawn1->canGo(1, 1);
 
-
-
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
-            // $wPawn4->canGo(0, 1);
 
 
             // if (isset($_GET['piece']) && isset($_GET['Xwarp']) && isset($_GET['Ywarp'])) {
