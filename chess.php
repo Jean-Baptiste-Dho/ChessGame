@@ -141,6 +141,7 @@ require_once 'classes/Pawn.php';
             $wKnight1->canGo(1, 2);
             $wKnight1->canGo(2, -1);
             $wKnight1->canGo(2, 1);
+            // $wKnight1->canGo(2, 1);
             $wKnight1->canGo(-1, 2);
             //$wKnight1->canGo(-5, -5);
 
@@ -156,8 +157,20 @@ require_once 'classes/Pawn.php';
             // $bPawn1->canGo(1, 1);
 
             $bQueen->canGo(0, -2);
-            // $bQueen->canGo(2, 0);
-            // $bQueen->canGo(1, 1);
+            $bQueen->canGo(2, 0);
+            $bQueen->canGo(1, -1);
+            $bQueen->canGo(-5, 0);
+            $bQueen->canGo(0, -4);
+            $bQueen->canGo(5, 5);
+            $bQueen->canGo(0, -1);
+            // $bQueen->canGo(-1, -2);
+            //$bQueen->canGo(2, 0);
+
+
+            $wQueen->canGo(0, 2);
+            $wQueen->canGo(-3, 3);
+            $wQueen->canGo(1, 0);
+            $wQueen->canGo(0, -1);
 
 
             // if (isset($_GET['piece']) && isset($_GET['Xwarp']) && isset($_GET['Ywarp'])) {

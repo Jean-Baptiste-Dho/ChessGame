@@ -25,6 +25,7 @@ class Queen extends PieceEchec
 
     public function canGo($X, $Y)
     {
+
         parent::horsPlateau($X, $Y);
 
         if ((abs($X) === 1 || $X === 0) && (abs($Y) === 1 || $Y === 0)) {
@@ -34,9 +35,10 @@ class Queen extends PieceEchec
         } else if ((abs($X) >= 1 &&  abs($Y) >= 1)) {
             if (abs($X) === abs($Y)) {
                 return parent::setPosition($this->coordX + $X, $this->coordY + $Y);
+            } else {
+                echo ("Vous ne pouvez pas aller à cette position");
             }
         } else {
-            echo ("Vous ne pouvez pas aller à cette position");
         }
     }
 }

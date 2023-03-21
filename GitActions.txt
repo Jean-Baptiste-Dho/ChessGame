@@ -1,5 +1,5 @@
 git add .
-git commit -m "test du mouvement de la reine."
+git commit -m "mouvement de la reine fixed."
 git push
 
 git add .
