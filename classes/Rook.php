@@ -28,7 +28,7 @@ class Rook extends PieceEchec
     {
         parent::horsPlateau($X, $Y);
 
-        if ((abs($X) !== 0 && $Y === 0) || (abs($X) === 0 && abs($Y) !== 0)) {
+        if (($X !== 0 && $Y === 0) || ($X === 0 && $Y !== 0)) {
             return parent::setPosition($this->coordX + $X, $this->coordY + $Y);
         } else {
             echo ("Vous ne pouvez pas aller à cette position");

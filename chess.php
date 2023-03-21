@@ -155,6 +155,9 @@ require_once 'classes/Pawn.php';
             // $bPawn1->canGo(0, 1);
             // $bPawn1->canGo(1, 1);
 
+            $bQueen->canGo(0, -2);
+            // $bQueen->canGo(2, 0);
+            // $bQueen->canGo(1, 1);
 
 
             // if (isset($_GET['piece']) && isset($_GET['Xwarp']) && isset($_GET['Ywarp'])) {
