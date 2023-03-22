@@ -173,30 +173,6 @@ require_once 'classes/Pawn.php';
             $wQueen->canGo(0, -1);
 
 
-            // if (isset($_GET['piece']) && isset($_GET['Xwarp']) && isset($_GET['Ywarp'])) {
-            //     $pieceName = $_GET['piece'];
-            //     $X = intval($_GET['Xwarp']);
-            //     $Y = intval($_GET['Ywarp']);
-
-            //     // Utilisation du nom de la variable pour sélectionner l'objet à mettre à jour
-            //     if (isset($$pieceName)) {
-            //         $$pieceName->setPosition($X, $Y);
-            //     }
-            // } else
-            // if (isset($_GET['piece']) && isset($_GET['positionX']) && isset($_GET['positionY'])) {
-            //     $pieceName = $_GET['piece'];
-            //     $X = intval($_GET['positionX']);
-            //     $Y = intval($_GET['positionY']);
-
-            //     // Utilisation du nom de la variable pour sélectionner l'objet à mettre à jour
-            //     if (isset($$pieceName)) {
-            //         $$pieceName->canGo($X, $Y);
-            //     }
-            // }
-
-
-
-
             // Afficher le plateau
             echo '<table>';
             for ($lign = 8; $lign >= 0; $lign--) {

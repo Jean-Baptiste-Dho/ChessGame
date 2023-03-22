@@ -77,6 +77,10 @@ abstract class PieceEchec
         return $this->couleur;
     }
 
+    public function isAvailable($X, $Y)
+    {
+    }
+
     public function getCouleurCase(): int
     {
         if (($this->coordX + $this->coordY) % 2 == 0) {
